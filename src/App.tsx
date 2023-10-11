@@ -71,77 +71,87 @@ function IconTabs() {
         />
         <Tab icon={<BuildTwoTone />} aria-label="person" label="Repairs" />
       </Tabs>
-
       <CustomTabPanel value={value} index={0}>
         <h2>Location & Community</h2>
         <p>
-          <strong>Utilities Setup:</strong> Ensure utilities are set up and
-          active from day one.
+          <strong>Utilities setup: </strong> make sure utilities are set up and
+          working from day one.
         </p>
         <p>
-          <strong>Community Guidelines:</strong> Familiarize yourself with and
-          adhere to community rules and guidelines.
+          <strong>Get to know the area:</strong> explore the neighborhood and
+          learn where important places like supermarkets, pharmacies, and public
+          transport points are.
+        </p>
+
+        <p>
+          <strong>Community guidelines:</strong> what are the house and building
+          rules? Get to know the area: explore the neighborhood and learn where
+          important places like supermarkets, pharmacies, and public transport
+          points are..
         </p>
         <p>
-          <strong>Neighborhood Info:</strong> Explore your neighborhood and note
-          down important locations like supermarkets, pharmacies, and public
-          transport points.
-        </p>
-        <p>
-          <strong>Community Engagement:</strong> Participate in events and join
-          community groups or platforms to connect with neighbors.
+          <strong>Community engagement: </strong> join events and community
+          groups or platforms to connect with neighbors.
         </p>
       </CustomTabPanel>
+
       <CustomTabPanel value={value} index={1}>
         <h2>Contact Information</h2>
         <p>
-          <strong>Landlord/Management Office:</strong> For general inquiries or
-          assistance, reach out to us at [Contact Number/Email].
+          <strong>Landlord/management office:</strong> for general inquiries or
+          assistance, reach out to us on michael@blueskyproperty.nl or
+          0229-261290.
         </p>
         <p>
-          <strong>Emergency Contact:</strong> In the event of emergencies,
-          contact [Emergency Contact] immediately.
+          <strong>Emergency contact: </strong> in the event of an emergency,
+          contact management@blaak555.nl immediately.
         </p>
         <p>
           <strong>Maintenance Contact:</strong> For maintenance requests,
-          contact [Maintenance Contact] or use the [Online Portal].
+          contact maintenance@blaak555.nl or use the HousingAnywhere.nl.
         </p>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
         <h2>Parking & Transportation</h2>
         <p>
-          <strong>Parking Spot:</strong> Your designated parking spot is
-          [Parking Spot Number/Location].
+          <strong>Parking spot: </strong> your parking spot is on the 2nd floor
+          of the underground garage. Spot 15B.
         </p>
         <p>
-          <strong>Guest Parking:</strong> Inform your guests about the guest
-          parking rules and location.
+          <strong>Guest parking: </strong> let your guests know about the guest
+          parking rules.
         </p>
         <p>
-          <strong>Public Transport:</strong> The nearest public transportation
-          points are located at [Location(s)].
+          <strong>Public transport: </strong> the nearest public transportation
+          points are located at Rotterdam Blaak (train), Rotterdam Keizerstraat
+          (tram)..
         </p>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={3}>
         <h2>Rent Information</h2>
         <p>
-          <strong>Payment Method:</strong> Opt for your preferred rent payment
-          method through our [Online Portal/Other Method].
+          <strong>Payment method:</strong> use your preferred payment method for
+          rent through our HousingAnywhere.nl
         </p>
         <p>
-          <strong>Rent Due Date:</strong> Ensure your rent is paid by [Day of
-          Month] to avoid late fees.
+          <strong>Rent due date: </strong> make sure your rent is paid by the
+          12th of the month to avoid late fees.
         </p>
         <p>
-          <strong>Renter's Insurance:</strong> Submit proof of your renter's
-          insurance policy before your move-in date.
+          <strong>Renter's insurance:</strong> submit proof of your insurance
+          policy before your move-in date.
         </p>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={4}>
         <h2>Repairs & Maintenance</h2>
+
         <p>
-          <strong>Reporting Issues:</strong> Immediately report any damages or
-          issues in your apartment to [Maintenance Contact/Portal].
+          <strong>Reporting issues:</strong> immediately report any damages or
+          issues in your apartment to maintenance@blaak555.nl or use the
+          HousingAnywhere.nl. Maintenance requests: send any maintenance
+          requests to maintenance@blaak555.nl or use HousingAnywhere.nl Move-in
+          inspection: join us for a thorough move-in inspection to document the
+          apartment's current condition..
         </p>
         <p>
           <strong>Maintenance Requests:</strong> Utilize the [Online
@@ -168,28 +178,25 @@ export function App() {
             marginTop={10}
             marginBottom={5}
           >
-            Welcome to Your New Home: A Move-in Guide
+            Welcome to your new home: a Move-in Guide
           </Typography>
           <Typography variant="subtitle1" gutterBottom>
-            Congratulations on your new home at [Property Address]! We are
-            thrilled to have you as a resident and want to ensure your
-            transition is as smooth as possible. Please find below your move-in
-            guide which will assist you throughout the process.
+            Congrats on your new home at Grote Noord 170! We're delighted to
+            have you as a tenant. Below you can find your move-in guide with all
+            the information you need to move in with ease.
           </Typography>
         </header>
-
         <Box marginY={5}>
           <IconTabs />
         </Box>
 
         <Typography>
-          Once again, welcome to [Property Name], your new home! Should you have
-          any questions or require assistance, feel free to reach out to us at
-          any time.
+          Once again, welcome to your new home at Grote Noord 170. If you have
+          any questions or need help, contact us.
         </Typography>
         <p>Warm regards,</p>
         <Typography variant="subtitle1" fontWeight={600}>
-          Ms Landord
+          Michael Klein
         </Typography>
       </Container>
     </Box>
