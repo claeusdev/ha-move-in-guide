@@ -87,7 +87,7 @@ function IconTabs() {
           <strong>Community guidelines:</strong> what are the house and building
           rules? Get to know the area: explore the neighborhood and learn where
           important places like supermarkets, pharmacies, and public transport
-          points are..
+          points are.
         </p>
         <p>
           <strong>Community engagement: </strong> join events and community
@@ -124,7 +124,7 @@ function IconTabs() {
         <p>
           <strong>Public transport: </strong> the nearest public transportation
           points are located at Rotterdam Blaak (train), Rotterdam Keizerstraat
-          (tram)..
+          (tram).
         </p>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={3}>
@@ -144,19 +144,16 @@ function IconTabs() {
       </CustomTabPanel>
       <CustomTabPanel value={value} index={4}>
         <h2>Repairs & Maintenance</h2>
-
         <p>
           <strong>Reporting issues:</strong> immediately report any damages or
           issues in your apartment to maintenance@blaak555.nl or use the
-          HousingAnywhere.nl. Maintenance requests: send any maintenance
-          requests to maintenance@blaak555.nl or use HousingAnywhere.nl Move-in
-          inspection: join us for a thorough move-in inspection to document the
-          apartment's current condition..
+          HousingAnywhere.nl.
         </p>
         <p>
-          <strong>Maintenance Requests:</strong> Utilize the [Online
-          Portal/Contact Method] for any maintenance requests.
+          <strong>Maintenance requests: </strong> send any maintenance requests
+          to maintenance@blaak555.nl or use HousingAnywhere.nl
         </p>
+
         <p>
           <strong>Move-In Inspection:</strong> Join us for a thorough move-in
           inspection to document the apartment's current condition.
